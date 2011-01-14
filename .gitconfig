@@ -1,0 +1,36 @@
+[user]
+	email = gogonkt@gmail.com
+	name = GoGoNKT
+[color]
+	branch = auto
+	status = auto
+	interactive = auto
+	diff = auto
+	ui = auto
+
+[alias]
+	st = status
+	ci = commit
+	br = branch
+	co = checkout
+	df = diff
+	who = shortlog -s --
+    undo=reset --hard
+    lc = log ORIG_HEAD.. --stat --no-merges
+    llog = log --date=local
+    changes=diff --name-status -r
+    diffstat=diff --stat -r
+    gitkconflict = !gitk --left-right HEAD...MERGE_HEAD
+    alias = !sh -c '[ $# = 2 ] && git config --global alias.\"$1\" \"$2\" && exit 0 || echo \"usage: git alias <new alias> <original command>\" >&2 && exit 1' -
+    aliases = !git config --get-regexp 'alias.*' | colrm 1 6 | sed 's/[ ]/ = /'
+    graphviz = "!f() { echo 'digraph git {' ; git log --pretty='format:  %h -> { %p }' \"$@\" | sed 's/[0-9a-f][0-9a-f]*/\"&\"/g' ; echo '}'; }; f"
+    whois = "!sh -c 'git log -i -1 --pretty=\"format:%an <%ae>\n\" --author=\"$1\"' -"
+    whatis = show -s --pretty='tformat:%h (%s, %ad)' --date=short
+    lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+	lp = log -p
+    serve = !git daemon --reuseaddr --verbose  --base-path=. --export-all ./.git
+	spull = !git-svn fetch && git-svn rebase
+	spush = !git-svn dcommit
+
+[core]
+	excludesfile = /home/gogonkt/.gitignore_global
