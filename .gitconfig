@@ -9,8 +9,9 @@
 	ui = auto
 
 [alias]
-	st = status
-	ci = commit
+	sta = status
+	st = status -s -uno
+	ci = commit -a -m
 	br = branch
 	co = checkout
 	df = diff
@@ -34,3 +35,5 @@
 
 [core]
 	excludesfile = /home/gogonkt/.gitignore_global
+[branch]
+	autosetupmerge = true
