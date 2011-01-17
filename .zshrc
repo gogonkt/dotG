@@ -332,9 +332,13 @@ alias Si='packer -Si'
 alias Ss='packer -Ss'
 alias Syu='packer -Syu'
 alias pR='pacman -R'
+alias Ql='pacman -Ql'
+alias Q='pacman -Q'
 alias getip='curl -s http://checkip.dyndns.org/ | grep -o "[[:digit:].]\+" '
 alias getcomfu='curl "http://www.commandlinefu.com/commands/browse/sort-by-votes/plaintext/[0-2500:25]" | grep -v _curl_ > comfu.txt'
 alias .G="git --work-tree=$HOME/ --git-dir=$HOME/dotfiles.git"
+alias rc.conf='sudo vim /etc/rc.conf'
+alias zshrc='vim ~/.zshrc;source ~/.zshrc'
 
 # Inline aliases, zsh -g aliases can be anywhere in command line
 alias -g ...='../..'
