@@ -9,6 +9,8 @@
 	ui = auto
 
 [alias]
+    l = pull
+    p = push
 	sta = status
 	st = status -s -uno
 	ci = commit -a -m
