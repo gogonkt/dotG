@@ -1,0 +1,10 @@
+# ignore all by default
+/*
+
+# do not ignore: 
+!.bash/
+!.ruby/
+!bin/
+!.zsh*
+!README*
+!.gitignore
