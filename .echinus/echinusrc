@@ -1,0 +1,115 @@
+!!Echinus*selected.border: #262626
+Echinus*selected.border: #00ff00
+Echinus*selected.button: #d3d7cf
+Echinus*selected.bg: #262626
+Echinus*selected.fg: #d3d7cf
+
+Echinus*normal.border: #262626
+Echinus*normal.button: #262626
+Echinus*normal.bg: #262626
+Echinus*normal.fg: #b0b4ac
+
+Echinus*border: 2
+
+Echinus*titlelayout: N T IMC
+Echinus*button.iconify.pixmap: iconify.xbm
+Echinus*button.maximize.pixmap: max.xbm
+Echinus*button.close.pixmap: close.xbm
+
+Echinus*sloppy: 0
+Echinus*opacity: 0.8
+Echinus*decoratetiled: 0
+Echinus*hidebastards: 0
+Echinus*mwfact: 0.6
+Echinus*nmaster: 1
+
+!!Echinus*font: fixed-9
+!!Echinus*font: Terminus-9
+!!Echinus*font: snap-11
+Echinus*font: WenQuanYi Bitmap Song-8
+!!Echinus*modkey: A
+Echinus*title: 12
+Echinus*modkey: W
+
+Echinus*tags.number: 5
+Echinus*tags.name0: web
+Echinus*tags.name1: forex
+Echinus*tags.name2: doc
+Echinus*tags.name3: dev
+Echinus*tags.name4: scr
+!!Echinus*tags.name5: gfx
+!!Echinus*tags.name6: misc
+
+Echinus*tags.layout1: t
+Echinus*tags.layout3: b
+
+Echinus*togglestruts: W + b
+Echinus*togglemonitor: W + grave
+Echinus*focusnext: W + j
+Echinus*focusprev: W + k
+Echinus*viewprevtag: W + Tab
+Echinus*viewlefttag: W + h
+Echinus*viewrighttag: W + l
+Echinus*quit: WS + q
+Echinus*restart: W + r = echinus
+Echinus*killclient: W + c
+Echinus*togglefloating: W + space
+Echinus*zoom: W + Return
+
+Echinus*view0: W + F1
+Echinus*view1: W + F2
+Echinus*view2: W + F3
+Echinus*view3: W + F4
+Echinus*view4: W + F5
+Echinus*view5: W + F6
+
+Echinus*tag0: WS + 1
+Echinus*tag1: WS + 2
+Echinus*tag2: WS + 3
+Echinus*tag3: WS + 4
+Echinus*tag4: WS + 5
+Echinus*tag5: WS + 6
+
+!!Echinus*toggleview4: A + F4
+!!Echinus*focusview6: A + s
+
+Echinus*deflayout: b
+
+Echinus*setlayoutm: W + m
+Echinus*setlayoutf: WS + f
+Echinus*setlayouti: WS + i
+Echinus*setlayoutt: WS + r
+Echinus*setlayoutb: WS + w
+
+Echinus*moveright: W + d = 5
+Echinus*moveleft: W + a = -5
+Echinus*moveup: W + w = 0 -5
+Echinus*movedown: W + s = 0 5
+Echinus*resizedecx: WS + a = 0 0 -5 0
+Echinus*resizedecy: WS + s = 0 0 0 -5
+Echinus*resizeincx: WS + d = 0 0 5 0
+Echinus*resizeincy: WSC + w = 0 0 0 5
+
+Echinus*spawn0: W + t = urxvt
+
+Echinus*decmwfact: WS + h = -0.03
+Echinus*incmwfact: WS + l = +0.03
+Echinus*decnmaster: WS + j = -1
+Echinus*incnmaster: WS + k = +1
+
+Echinus*command: urxvt
+
+Echinus*rule0: Firefox.* web 0 1
+Echinus*rule1: Wine.* forex 0 1
+Echinus*rule2: Vimparator.* web 0 1
+
+Echinus*rule0: Firefox.* web 0 1
+Echinus*rule1: Wine.* forex 1 1
+Echinus*rule2: Shiretoko.* web 0 1
+Echinus*rule3: Shiretoko.Toplevel web 1 1
+Echinus*rule3: Namoroka.* web 0 1
+Echinus*rule3: Namoroka.Toplevel web 1 1
+Echinus*rule4: xfce4-panel.* NULL 1 0
+Echinus*rule5: Mplayer.* NULL 1 1
+Echinus*rule5: Totem.* NULL 1 1
+Echinus*rule6: Gimp.* gfx 1 1
