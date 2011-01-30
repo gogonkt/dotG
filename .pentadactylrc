@@ -1,0 +1,51 @@
+"1.0b3 (created: 2010/11/06 12:31:35)
+
+set runtimepath=/home/gogonkt/.pentadactyl
+
+ 
+command! g open google <args>
+command! off set noonline
+command! on set online
+ 
+set nextpattern+=^\s*下一页\s*$
+set previouspattern+=\s*上一页\s*$
+"set nextpattern+=^下一页$
+"set previouspattern+=^上一页$
+set nextpattern+=^下一頁\s*$
+set previouspattern+=^上一頁\s*$
+set nextpattern+=^確定\s*$
+"set guioptions+=m
+set hintkeys="asdfg;lkjh"
+set hinttimeout=1000
+
+"set forcuscontent
+ 
+noremap j <C-d>
+noremap k <C-u>
+noremap + zM
+"noremap - zR
+noremap B :bmarks!<space>
+map l gt
+map h gT
+ 
+"No C-i/C-o, use H/L to backward/forward
+map <C-i> <Nop>
+map <C-o> <Nop>
+map I :isgd<CR>
+ 
+" Toggle the toolbar
+map <silent> <F2> :se go!=mT<cr>
+
+" " map to js functions 
+" "map <C-w> :js wiki_selected_text() <CR>
+"  
+" """ == javascript ==
+" js<<EOF
+" // Wiki Selected Text
+" wiki_selected_text = function () {
+"     str = buffer.getCurrentWord()
+"     dactyl.execute('tabopen wikipedia ' + str);
+" }
+" EOF
+
+" vim: set ft=vim:"2.0pre (created: 2008/12/04 07:30:01)
