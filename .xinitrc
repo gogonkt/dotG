@@ -76,7 +76,7 @@ wmii)
 	#exec stalonetray&
 	(sleep 5;yeahconsole )&
 	(sleep 5;gcin& )&
-	exec /usr/local/bin/echinus
+	exec /usr/bin/echinus
 	;;
 
 esac
