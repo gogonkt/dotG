@@ -88,6 +88,8 @@ autoload colors ; colors
 
 # correction
 #setopt correctall
+# beep
+setopt beep
 
 # prompt {{{2
  autoload -U promptinit
@@ -313,7 +315,8 @@ alias f="/opt/firefox/firefox-bin -P Forex -no-remote&"
 alias vzsh="vi ~/.zshrc;source ~/.zshrc"
 alias vawe="vi ~/.config/awesome/rc.lua"
 # alias pdf="acroread"
-alias pdf="mupdf"
+# alias pdf="mupdf"
+alias pdf="zathura"
 alias ssu="sudo su -"
 alias x="startx"
 alias poeon="sudo pppoe-start"

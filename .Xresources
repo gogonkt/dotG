@@ -20,8 +20,8 @@ URxvt.tintColor:            white
 URxvt.shading:              50
 URxvt.saveLines:            1500
 ! URxvt.preeditType:          Root
-URxvt.inputMethod:          gcin
 URxvt.borderLess:           False
+URxvt.urgentOnBell: True
 
 !# teh transparency stuff
 !URxvt*inheritPixmap:    true
@@ -80,5 +80,3 @@ yeahconsole*toggleKey: Win+y
 !yeahconsole*keyFull: None+F8
 !yeahconsole*aniDelay: 1
 !yeahconsole*stepSize: 20
-
-URxvt*inputMethod:gcin2
