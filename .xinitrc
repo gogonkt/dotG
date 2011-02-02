@@ -20,6 +20,7 @@ exec urxvtd&
 xmodmap -e "keycode 77 = Num_Lock"
 xmodmap -e "keycode 100 = Super_L" -e "add mod4 = Super_L"
 xmodmap -e "keycode 102 = Super_L" -e "add mod4 = Super_L"
+xmodmap -e "keycode 156 = XF86LaunchA"
 
 #exec startxfce4
 
