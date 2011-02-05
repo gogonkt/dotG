@@ -10,7 +10,7 @@ exec xrdb ~/.Xresources&
 
 # http://forums.gentoo.org/viewtopic-t-717117-highlight-firefox.html
 #exec $HOME/.pack_ffox.sh&
-exec urxvtd&
+# exec urxvtd&
 #(sleep 5;exec urxvt -geometry 96x54+0+18 )&
 
 #xmodmap -e "keycode 131 = Super_L" -e "add mod4 = Super_L"
@@ -21,6 +21,7 @@ xmodmap -e "keycode 77 = Num_Lock"
 xmodmap -e "keycode 100 = Super_L" -e "add mod4 = Super_L"
 xmodmap -e "keycode 102 = Super_L" -e "add mod4 = Super_L"
 xmodmap -e "keycode 156 = XF86LaunchA"
+wine ~/share/gfw/fg706p.exe&
 
 #exec startxfce4
 
@@ -75,7 +76,7 @@ wmii)
 	# (sleep 2;exec /usr/local/bin/ourico;)&
 	# (sleep 10;exec conky -d &)&
 	#exec stalonetray&
-	(sleep 5;yeahconsole )&
+	yeahconsole&
 	(sleep 5;gcin& )&
 	exec /usr/bin/echinus
 	;;

@@ -293,40 +293,41 @@ mcast () {
   }
 
 # alias for daily use
-alias gm="ssh -C gmwx.3322.org"
-alias i="ssh -C gmwx.3322.org -t 'LANG=zh_CN.utf8;screen -RD gogonkt'"
-alias firefs="sshfs gogonkt@www.linuxfire.com.cn: firefs"
-alias unfirefs="fusermount -u firefs"
-alias mvllfs="sshfs mvll@ssh.alwaysdata.com: mvllfs"
-alias unmvllfs="fusermount -u mvllfs"
-alias s="screen -RD gogonkt"
+alias gm='ssh -C gmwx.3322.org'
+alias i='ssh -C gmwx.3322.org -t "LANG=zh_CN.utf8;screen -RD gogonkt"'
+alias firefs='sshfs gogonkt@www.linuxfire.com.cn: firefs'
+alias unfirefs='fusermount -u firefs'
+alias mvllfs='sshfs mvll@ssh.alwaysdata.com: mvllfs'
+alias unmvllfs='fusermount -u mvllfs'
+alias s='screen -RD gogonkt'
 alias screen='LANG=en_US.UTF-8 screen'
 #alias sch="sc -RD ssh -c /etc/screenrc sh -c 'ssh -4NCxD 7070 oahong@199.71.214.60'"
-alias sch="sc -RD ssh -c /etc/screenrc sh -c 'autossh -M 2000 -4NCxD 7070 oahong@ssh101.blockcn.com'"
-alias ir='sc -RD irssi -c /etc/screenrc irssi'
-alias xsu="sc -t ssu sh -e 'sudo su'"
-alias sc="LANG=en_US.UTF-8 screen"                 # Starts screen
-alias sr="LANG=en_US.UTF-8 screen -r"             # Screen Reattach
-alias sd="LANG=en_US.UTF-8 screen -d"                 # Screen Detach
-alias m="wine ~/share/MultiBank\ Trader\ CN/terminal.exe 2>/dev/null&"
-alias q="wine ~/.wine/drive_c/QQ/QQ.exe 2>/dev/null&"
-alias ie="wine ~/.wine/drive_c/Program\ Files/Internet\ Explorer/iexplore.exe&"
-alias f="/opt/firefox/firefox -P blood -no-remote 2>/dev/null&"
-alias fgg="wine ~/share/gfw/fg706p.exe 2> /dev/null&"
-alias vzsh="vi ~/.zshrc;source ~/.zshrc"
-alias vawe="vi ~/.config/awesome/rc.lua"
-# alias pdf="acroread"
-# alias pdf="mupdf"
-alias pdf="zathura"
-alias ssu="sudo su -"
-alias x="startx"
-alias poeon="sudo pppoe-start"
-alias xp="VBoxManage startvm xp-deep"
-alias esleep="sudo hibernate-ram"
-alias beeps="repeat 5 do aplay -q ~/share/MultiBank\ Trader\ CN/sounds/alert.wav;sleep 2; done"
-alias 15sleep="( sleep $((60 * 15));repeat 5 do aplay -q ~/share/MultiBank\ Trader\ CN/sounds/alert.wav;sleep 2; done)"
-alias 2hsleep="( sleep $((60 * 120));repeat 5 do aplay -q ~/share/MultiBank\ Trader\ CN/sounds/alert.wav;sleep 2; done)"
-alias x="AWT_TOOLKIT=MToolkit ~/PersonalBrain/PersonalBrain"
+alias sch='sc -RD ssh -c /etc/screenrc sh -c "autossh -M 2000 -4NCxD 7070 oahong@ssh101.blockcn.com"'
+# alias ir='sc -RD irssi -c /etc/screenrc irssi'
+alias ir='sc -RD irssi -c ~/dotscreenrcIR'
+alias xsu='sc -t ssu sh -e 'sudo su''
+alias sc='LANG=en_US.UTF-8 screen'                 # Starts screen
+alias sr='LANG=en_US.UTF-8 screen -r'             # Screen Reattach
+alias sd='LANG=en_US.UTF-8 screen -d'                 # Screen Detach
+alias m='wine ~/share/MultiBank\ Trader\ CN/terminal.exe 2>/dev/null&'
+alias q='wine ~/.wine/drive_c/QQ/QQ.exe 2>/dev/null&'
+alias ie='wine ~/.wine/drive_c/Program\ Files/Internet\ Explorer/iexplore.exe&'
+alias f='/opt/firefox/firefox -P blood -no-remote 2>/dev/null&'
+alias fgg='wine ~/share/gfw/fg706p.exe 2> /dev/null&'
+alias vzsh='vi ~/.zshrc;source ~/.zshrc'
+alias vawe='vi ~/.config/awesome/rc.lua'
+# alias pdf='acroread'
+# alias pdf='mupdf'
+alias pdf='zathura'
+alias ssu='sudo su -'
+alias x='startx'
+alias poeon='sudo pppoe-start'
+alias xp='VBoxManage startvm xp-deep'
+alias esleep='sudo hibernate-ram'
+alias beeps='repeat 5 do aplay -q ~/share/MultiBank\ Trader\ CN/sounds/alert.wav;sleep 2; done'
+alias 15sleep='( sleep $((60 * 15));repeat 5 do aplay -q ~/share/MultiBank\ Trader\ CN/sounds/alert.wav;sleep 2; done)'
+alias 2hsleep='( sleep $((60 * 120));repeat 5 do aplay -q ~/share/MultiBank\ Trader\ CN/sounds/alert.wav;sleep 2; done)'
+alias x='AWT_TOOLKIT=MToolkit ~/PersonalBrain/PersonalBrain'
 alias mw='mplayer -aspect 16:9 '
 alias mp='mplayer '
 alias epv='emerge -pv '
@@ -340,7 +341,7 @@ alias Ql='pacman -Ql'
 alias Q='pacman -Q'
 alias getip='curl -s http://checkip.dyndns.org/ | grep -o "[[:digit:].]\+" '
 alias getcomfu='curl "http://www.commandlinefu.com/commands/browse/sort-by-votes/plaintext/[0-2500:25]" | grep -v _curl_ > comfu.txt'
-alias .G="git --work-tree=$HOME/ --git-dir=$HOME/dotfiles.git"
+alias .G='git --work-tree=$HOME/ --git-dir=$HOME/dotfiles.git'
 alias rc.conf='sudo vim /etc/rc.conf'
 alias zshrc='vim ~/.zshrc;source ~/.zshrc'
 
@@ -348,18 +349,18 @@ alias zshrc='vim ~/.zshrc;source ~/.zshrc'
 alias -g ...='../..'
 alias -g ....='../../..'
 alias -g .....='../../../..'
-alias -g CA="2>&1 | cat -A"
+alias -g CA='2>&1 | cat -A'
 alias -g C='| wc -l'
-alias -g D="DISPLAY=:0.0"
+alias -g D='DISPLAY=:0.0'
 alias -g DN=/dev/null
-alias -g ED="export DISPLAY=:0.0"
+alias -g ED='export DISPLAY=:0.0'
 alias -g F=' | fmt -'
 alias -g G='| egrep --color=auto'
 alias -g H='| head'
 alias -g HL='|& head -20'
-alias -g Sk="*~(*.bz2|*.gz|*.tgz|*.zip|*.z)"
-alias -g LL="2>&1 | less"
-alias -g L="| less"
+alias -g Sk='*~(*.bz2|*.gz|*.tgz|*.zip|*.z)'
+alias -g LL='2>&1 | less'
+alias -g L='| less'
 alias -g LS='| less -S'
 alias -g RNS='| sort -nr'
 # alias -g S='| sort'

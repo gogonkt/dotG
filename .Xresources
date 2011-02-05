@@ -1,75 +1,69 @@
-Xft.dpi:96
+Xft*dpi:96
 
 !! RXVT-unicode setting
 !URxvt.geometry:             80x24+80+80
-URxvt.background:           black
-URxvt.foreground:           white
-URxvt.scrollBar:            False
-URxvt.scrollstyle:          next
+URxvt*background:           black
+URxvt*foreground:           white
+URxvt*scrollBar:            False
+URxvt*scrollstyle:          next
 URxvt*termName: rxvt-256color
 XTerm*termName: xterm-256color
 URxvt*keysym.Home: \033[1~
 URxvt*keysym.End: \033[4~
 
 ! Use shift+pageup/down to scroll in screen
-URxvt.secondaryScroll:  True
+URxvt*secondaryScroll:  True
 
 !set the artificial transparency of the v.t.
-URxvt.inheritPixmap:        True
-URxvt.tintColor:            white
-URxvt.shading:              50
-URxvt.saveLines:            1500
-! URxvt.preeditType:          Root
-URxvt.borderLess:           False
-URxvt.urgentOnBell: True
-
-!# teh transparency stuff
-!URxvt*inheritPixmap:    true
-!URxvt*tintColor:        white
-!URxvt*shading:          40
-
+URxvt*inheritPixmap:        True
+URxvt*tintColor:            white
+URxvt*shading:              50
+URxvt*saveLines:            1500
+URxvt*preeditType:          Root
+URxvt*borderLess:           False
+URxvt*urgentOnBell: True
 
 !italicFont and boldItalicFont undefined
-URxvt.font:xft:Terminus-10,xft:WenQuanYi Bitmap Song-10
-URxvt.boldFont:xft:Terminus-10:Bold,xft:WenQuanYi Bitmap Song-10:Bold
+URxvt*font:xft:Terminus-10,xft:WenQuanYi Bitmap Song-10
+URxvt*boldFont:xft:Terminus-10:Bold,xft:WenQuanYi Bitmap Song-10:Bold
 
 !handle url
-URxvt.urlLauncher: firefox
-URxvt.matcher.button: 1
-URxvt.perl-ext-common: matcher
+URxvt*urlLauncher: firefox
+URxvt*matcher.button: 1
+URxvt*perl-ext-common: matcher
 
-!URxvt.perl-ext-common: default,matcher
-!URxvt.urlLauncher: firefox
-!URxvt.matcher.button: 2
-!URxvt.matcher.pattern.1: \\bwww\\.[\\w-]\\.[\\w./?&@#-]*[\\w/-]
+!URxvt*perl-ext-common: default,matcher
+!URxvt*urlLauncher: firefox
+!URxvt*matcher*button: 2
+!URxvt*matcher*pattern.1: \\bwww\\.[\\w-]\\.[\\w./?&@#-]*[\\w/-]
 
 !redefine color to use tango theme in vim
 URxvt*underlineColor: #86a2be
 !URxvt*underlineColor: #42D636
 !Green
-URxvt.color2:           #4E9A06
-URxvt.color10:          #8AE234
+URxvt*color2:           #4E9A06
+URxvt*color10:          #8AE234
 !!Blue
-URxvt.color4:           #3465A4
-URxvt.color12:          #729FCF
+URxvt*color4:           #3465A4
+URxvt*color12:          #729FCF
 !!Black
-! URxvt.color0:           #000000
-! URxvt.color8:           #555753
+! URxvt*color0:           #000000
+! URxvt*color8:           #555753
 !!Red
-!URxvt.color1:           #CC0000
-!URxvt.color9:           #EF2929
+!URxvt*color1:           #CC0000
+!URxvt*color9:           #EF2929
 !!Yellow
-!URxvt.color3:           #C4A000
-!URxvt.color11:          #FCE94F
+!URxvt*color3:           #C4A000
+!URxvt*color11:          #FCE94F
 !!Magenta
-!URxvt.color5:           #75507B
-!URxvt.color13:          #AD7FA8
+!URxvt*color5:           #75507B
+!URxvt*color13:          #AD7FA8
 !!Cyan
-!URxvt.color6:           #06989A
-!URxvt.color14:          #34E2E2
+!URxvt*color6:           #06989A
+!URxvt*color14:          #34E2E2
 !!White
-!URxvt.color7:           #D3D7CF
-!URxvt.color15:          #EEEEEC
+!URxvt*color7:           #D3D7CF
+!URxvt*color15:          #EEEEEC
 
 ! theme from http://tuxtraining.com/2009/07/28/how-to-have-a-lightweight-beautiful-functional-terminal
 
@@ -80,3 +74,16 @@ yeahconsole*toggleKey: Win+y
 !yeahconsole*keyFull: None+F8
 !yeahconsole*aniDelay: 1
 !yeahconsole*stepSize: 20
+
+
+! urxvt*font:*-*-fixed-medium-r-normal--*-120-*-*-*-*-iso8859-1,xft:WenQuanYi Bitmap Song-10:antialias=false
+! urxvt*boldFont:*-*-fixed-bold-r-normal--*-120-*-*-*-*-iso8859-1,xft:WenQuanYi Bitmap Song-10:Bold:antialias=false
+! urxvt*background: black
+! urxvt*foreground: white
+! urxvt*inheritPixmap: true
+! ! urxvt*tintColor: gray2
+! urxvt*scrollBar:false
+! URxvt*preeditType:Root
+! URxvt*shading: 80
+! ! xterm
+! XTerm*preeditType:Root
