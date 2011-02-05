@@ -144,6 +144,7 @@
 
 # Do not use xterm's alternative window buffer, it breaks scrollback (see bug #61195)
   termcapinfo xterm|xterms|xs ti@:te=\E[2J
+  termcapinfo rxvt-unicode ti@:te@     #enable SHIFT-PGUP / SHIFT-PGDOWN scroll
 
 # WYSE TERMINALS
 # ===============================================================
